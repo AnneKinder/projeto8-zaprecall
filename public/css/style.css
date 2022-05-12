@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Recursive:wght@300;400;500;600;700;800;900&display=swap');
+
+
+*{
+    box-sizing:border-box;
+}
+
+.root{
+    height: 667px;
+    width: 375px;
+    background-color: #FB6B6B;
+}
+
+/*WELCOME PAGE*/
+
+.welcome-page{
+    height: 667px;
+    width: 375px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    height:150px;
+    width:130px; 
+    margin-bottom: 35px;
+}
+
+.app-name{
+    height: 59px;
+    font-family: 'Righteous';
+    font-weight: 400;
+    font-size: 36px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.start{
+    width: 246px;
+    height: 54px;
+    background: #FFFFFF;
+    border: 1px solid #D70900;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    font-family: 'Recursive';
+    font-weight: 400;
+    font-size: 18px;
+    color: #D70900;
+}
+
+/* DECK */
+
+.deck{
+    height: 667px;
+    width: 375px;
+}
+
+.header{
+    height: 100px;
+    width: 375px;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    
+}
+
+.littlelogo{
+    height: 45px;
+    padding-right:7px;
+}
+
+.flashcard{
+    width: 300px;
+    height: 65px;
+    margin-left: 37px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    margin-top: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.hidden{
+    display: none;
+}
